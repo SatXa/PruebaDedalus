@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "PruebaDedalus";
+}
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    @*<select class@*="js-data-example-ajax" asp-for="Number" asp-items="@((List<SelectListItem>)ViewData[" Numbers"])">
+        <option value="">Pick one</option>
+    </select>
+
+    @Html.DropDownList("MovieId", Enumerable.Range(1, 5).Select(i => new SelectListItem { Text = i.ToString() }))*@
+
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
